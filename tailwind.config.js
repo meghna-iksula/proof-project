@@ -14,6 +14,12 @@ export default {
         green: "#00b874",
         blue: "#0050b8",
         "light-gray": "#00000057",
+        "proof-border": "rgba(255, 255, 255, 0.38)",
+        "light-white": "rgba(255, 255, 255, 0.09)",
+      },
+      backgroundImage: {
+        "waterfall-img": "url('/waterfall-bg.jpg')",
+        "waves-img": "url('/waves-bg.jpg')",
       },
     },
   },

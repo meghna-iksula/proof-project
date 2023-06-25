@@ -34,9 +34,7 @@ function Subscribe() {
             placeholder="What's you favorite location? (Optional)"
             required
           />
-          <button className="uppercase font-Roboto-Condensed py-[8px] px-[23px] bg-black hover:bg-blue text-white transition-colors ease-in">
-            Subscribe
-          </button>
+          <button className="form-button">Subscribe</button>
         </form>
       </div>
     </div>

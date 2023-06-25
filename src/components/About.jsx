@@ -24,9 +24,7 @@ function About() {
         <div className="flex justify-between">
           <div className="w-[150px]">
             <img src="./rob-thomas.jpg" alt="team member" />
-            <p className="font-Roboto my-[5px] text-[14px] leading-[20px] text-gray">
-              Rob Thomas
-            </p>
+            <p className="team-member">Rob Thomas</p>
             <div className="flex">
               <img
                 className="social-media-icon"
@@ -47,9 +45,7 @@ function About() {
           </div>
           <div className="w-[150px]">
             <img src="./jen-jillians.jpg" alt="team member" />
-            <p className="font-Roboto my-[5px] text-[14px] leading-[20px] text-gray">
-              Jen Jillians
-            </p>
+            <p className="team-member">Jen Jillians</p>
             <div className="flex">
               <img
                 className="social-media-icon"
@@ -70,9 +66,7 @@ function About() {
           </div>
           <div className="w-[150px]">
             <img src="./tommy-tikes.jpg" alt="team member" />
-            <p className="font-Roboto my-[5px] text-[14px] leading-[20px] text-gray">
-              Tommy Tikes
-            </p>
+            <p className="team-member">Tommy Tikes</p>
             <div className="flex">
               <img
                 className="social-media-icon"

@@ -34,9 +34,7 @@ function Suggest() {
             placeholder="What's the story?"
             required
           />
-          <button className="uppercase font-Roboto-Condensed py-[8px] px-[23px] bg-black hover:bg-blue text-white transition-colors ease-in">
-            Send suggestion
-          </button>
+          <button className="form-button">Send suggestion</button>
         </form>
       </div>
     </div>

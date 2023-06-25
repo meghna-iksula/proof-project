@@ -43,43 +43,27 @@ const Navigation = () => {
       <div className="flex w-full text-[14px] font-Roboto-Condensed uppercase tracking-[1px] shadow-gray-bottom">
         <div
           onClick={articleClickHandler}
-          className={
-            showArticle
-              ? "shadow-inner-gray border-b border-green text-green"
-              : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
-          }
+          className={showArticle ? "nav-style-green" : "nav-style-gray"}
         >
-          <p className="px-[22px] py-[19px] cursor-pointer ">Articles</p>
+          <p className="nav-text">Articles</p>
         </div>
         <div
           onClick={suggestClickHandler}
-          className={
-            showSuggest
-              ? "shadow-inner-gray border-b border-green text-green"
-              : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
-          }
+          className={showSuggest ? "nav-style-green" : "nav-style-gray"}
         >
-          <p className="px-[22px] py-[19px] cursor-pointer">Suggest</p>
+          <p className="nav-text">Suggest</p>
         </div>
         <div
           onClick={subscribeClickHandler}
-          className={
-            showSubscribe
-              ? "shadow-inner-gray border-b border-green text-green"
-              : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
-          }
+          className={showSubscribe ? "nav-style-green" : "nav-style-gray"}
         >
-          <p className="px-[22px] py-[19px] cursor-pointer">Subscribe</p>
+          <p className="nav-text">Subscribe</p>
         </div>
         <div
           onClick={aboutClickHandler}
-          className={
-            showAbout
-              ? "shadow-inner-gray border-b border-green text-green"
-              : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
-          }
+          className={showAbout ? "nav-style-green" : "nav-style-gray"}
         >
-          <p className="px-[22px] py-[19px] cursor-pointer">About</p>
+          <p className="nav-text">About</p>
         </div>
       </div>
       <div>

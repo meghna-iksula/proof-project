@@ -3,9 +3,30 @@
 @tailwind utilities;
 
 @layer components {
+  .nav-text {
+    @apply px-[22px] py-[19px] cursor-pointer;
+  }
+
+  .nav-style-green {
+    @apply shadow-inner-gray border-b border-green text-green;
+  }
+
+  .nav-style-gray {
+    @apply shadow-inner-gray text-gray hover:border-b hover:border-gray;
+  }
+
   .form-input {
     @apply font-Roboto font-light text-blue focus:outline-blue focus:outline px-[15px] py-[14px] mb-[15px] bg-[rgba(0,0,0,0.04)] border border-[rgba(0,0,0,0.18)];
   }
+
+  .form-button {
+    @apply uppercase font-Roboto-Condensed py-[8px] px-[23px] bg-black hover:bg-blue text-white transition-colors ease-in;
+  }
+
+  .team-member {
+    @apply font-Roboto my-[6px] text-[14px] leading-[20px] text-gray;
+  }
+
   .social-media-icon {
     @apply mr-[14px] invert-[0.8] hover:filter-none cursor-pointer transition-all ease-in;
   }

@@ -11,6 +11,14 @@
     @apply shadow-inner-gray border-b border-green text-green;
   }
 
+  .page-title {
+    @apply text-[43px] leading-[47px] font-Roboto-Condensed mb-[16px];
+  }
+
+  .page-text {
+    @apply font-Roboto-slab font-light text-[16px] leading-[23px];
+  }
+
   .nav-style-gray {
     @apply shadow-inner-gray text-gray hover:border-b hover:border-gray;
   }

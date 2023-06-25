@@ -1,10 +1,8 @@
 function Subscribe() {
   return (
     <div className=" p-[40px] max-w-[630px] w-full ">
-      <h2 className="text-[43px] leading-[47px] font-Roboto-Condensed mb-[18px]">
-        Subscribe to Proof
-      </h2>
-      <p className="font-Roboto-slab font-light text-[16px] mb-[30px]">
+      <h2 className="page-title">Subscribe to Proof</h2>
+      <p className="page-text mb-[30px]">
         Want the latest articles in your inbox? Subscribe - it's free! Just give
         us your contact info and you're on your way.
       </p>

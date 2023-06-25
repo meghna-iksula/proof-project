@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .form-input {
+    @apply font-Roboto font-light text-blue focus:outline-blue focus:outline px-[15px] py-[14px] mb-[15px] bg-[rgba(0,0,0,0.04)] border border-[rgba(0,0,0,0.18)];
+  }
+  .social-media-icon {
+    @apply mr-[14px] invert-[0.8] hover:filter-none cursor-pointer transition-all ease-in;
+  }
+}

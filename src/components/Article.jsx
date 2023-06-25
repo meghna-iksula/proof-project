@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import IndividualArticle from "./IndividualArticle";
 
-function Article() {
+function Article(props) {
   const [dataSet, setDataSet] = useState([]);
+
+  useEffect(() => {
+    fetchArticlesHandler();
+  });
 
   async function fetchArticlesHandler() {
     const response = await fetch("/photos.json");
@@ -10,11 +14,16 @@ function Article() {
     console.log(data);
     setDataSet(data);
   }
+
   return (
-    <div className="max-w-[500px] h-[90vh] overflow-scroll">
-      <p onClick={fetchArticlesHandler}>hello</p>
+    <div className="max-w-[650px] w-full h-[90vh] overflow-scroll">
       {dataSet.map((data) => (
-        <IndividualArticle key={data.id} title={data.title} image={data.url} />
+        <IndividualArticle
+          key={data.id}
+          title={data.title}
+          date={data.date}
+          image={data.url}
+        />
       ))}
     </div>
   );

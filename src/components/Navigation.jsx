@@ -45,7 +45,7 @@ const Navigation = () => {
           onClick={articleClickHandler}
           className={
             showArticle
-              ? "shadow-inner-green text-green"
+              ? "shadow-inner-gray border-b border-green text-green"
               : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
           }
         >
@@ -55,7 +55,7 @@ const Navigation = () => {
           onClick={suggestClickHandler}
           className={
             showSuggest
-              ? "shadow-inner-green text-green"
+              ? "shadow-inner-gray border-b border-green text-green"
               : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
           }
         >
@@ -65,7 +65,7 @@ const Navigation = () => {
           onClick={subscribeClickHandler}
           className={
             showSubscribe
-              ? "shadow-inner-green text-green"
+              ? "shadow-inner-gray border-b border-green text-green"
               : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
           }
         >
@@ -75,7 +75,7 @@ const Navigation = () => {
           onClick={aboutClickHandler}
           className={
             showAbout
-              ? "shadow-inner-green text-green"
+              ? "shadow-inner-gray border-b border-green text-green"
               : "shadow-inner-gray text-gray hover:border-b hover:border-gray"
           }
         >
@@ -83,7 +83,7 @@ const Navigation = () => {
         </div>
       </div>
       <div>
-        {showArticle && <Article />}
+        {showArticle && <Article clicked={showArticle} />}
         {showSuggest && <Suggest />}
         {showSubscribe && <Subscribe />}
         {showAbout && <About />}

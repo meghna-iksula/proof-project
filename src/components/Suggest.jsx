@@ -1,9 +1,13 @@
+import { useState } from "react";
 import validateInput from "./form-validation";
+import ModalOverlay from "./ModalOverlay";
 
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
-function Suggest() {
+const Suggest = () => {
+  const [showModal, setShowModal] = useState(false);
+
   const {
     value: fullNameValue,
     isValid: fullNameIsValid,
@@ -46,6 +50,10 @@ function Suggest() {
     formIsValid = true;
   }
 
+  const modalClickHandler = () => {
+    setShowModal(!showModal);
+  };
+
   const submitHandler = (event) => {
     event.preventDefault();
 
@@ -57,10 +65,18 @@ function Suggest() {
     resetEmail();
     resetSubject();
     resetStory();
+    modalClickHandler();
   };
 
   return (
     <div className="p-[20px] lg:p-[40px] lg:max-w-[630px] w-full lg:h-[90vh] mb-[50px] lg:mb-0 overflow-scroll">
+      {showModal && (
+        <ModalOverlay
+          title="Suggestion"
+          message="Thank You for sharing your Suggestion!"
+          onClick={modalClickHandler}
+        />
+      )}
       <h2 className="page-title">Suggest an article</h2>
       <p className="page-text mb-[30px]">
         Proof magazine is a community effort. No one person writes or creates
@@ -147,7 +163,7 @@ function Suggest() {
 
           <button
             disabled={!formIsValid}
-            className="form-button disabled:bg-slate-500"
+            className="form-button disabled:bg-slate-500 disabled:cursor-not-allowed"
           >
             Send suggestion
           </button>
@@ -155,6 +171,6 @@ function Suggest() {
       </div>
     </div>
   );
-}
+};
 
 export default Suggest;

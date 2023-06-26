@@ -1,11 +1,13 @@
 import { useState } from "react";
 import validateInput from "./form-validation";
+import ModalOverlay from "./ModalOverlay";
 
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
 const Subscribe = () => {
   const [enteredLocation, setLocation] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
   const {
     value: firstNameValue,
@@ -48,6 +50,10 @@ const Subscribe = () => {
     setLocation("");
   };
 
+  const modalClickHandler = () => {
+    setShowModal(!showModal);
+  };
+
   const submitHandler = (event) => {
     event.preventDefault();
 
@@ -59,10 +65,19 @@ const Subscribe = () => {
     resetLastName();
     resetEmail();
     resetLocation();
+    modalClickHandler();
   };
 
   return (
     <div className="p-[20px] lg:p-[40px] lg:max-w-[630px] w-full lg:h-[90vh] mb-[100px] lg:mb-0 overflow-scroll">
+      {showModal && (
+        <ModalOverlay
+          title="Subscription"
+          message="Thank You for Subscribing!"
+          onClick={modalClickHandler}
+        />
+      )}
+
       <h2 className="page-title">Subscribe to Proof</h2>
       <p className="page-text mb-[30px]">
         Want the latest articles in your inbox? Subscribe - it's free! Just give
@@ -133,7 +148,7 @@ const Subscribe = () => {
           />
           <button
             disabled={!formIsValid}
-            className="form-button disabled:bg-slate-500"
+            className="form-button disabled:bg-slate-500 disabled:cursor-not-allowed"
           >
             Subscribe
           </button>

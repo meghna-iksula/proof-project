@@ -40,6 +40,6 @@
   }
 
   .social-links-icon {
-    @apply w-1/4 h-[58px] pt-[20px] border-r border-proof-border cursor-pointer hover:bg-light-white transition-all duration-300;
+    @apply w-1/4 h-[58px] pt-[20px] border-r border-proof-border cursor-pointer hover:bg-light-white transition-colors ease-in;
   }
 }

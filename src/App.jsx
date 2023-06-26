@@ -1,16 +1,15 @@
-import "./App.css";
-import Navigation from "./components/Navigation";
-import SideBanner from "./components/SideBanner";
-import SocialLinks from "./components/SocialLinks";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+
+import Home from "./components/Home";
+import ArticlePage from "./components/ArticlePage";
+
+const router = createBrowserRouter([
+  { path: "/", element: <Home /> },
+  { path: "/article", element: <ArticlePage /> },
+]);
 
 function App() {
-  return (
-    <div className="lg:flex">
-      <SideBanner />
-      <Navigation />
-      <SocialLinks />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

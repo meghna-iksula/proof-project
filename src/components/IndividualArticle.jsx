@@ -1,7 +1,7 @@
 function IndividualArticle(props) {
   return (
     <div className="flex p-[20px] lg:p-[40px] max-w-full cursor-pointer hover:text-blue shadow-gray-bottom hover:shadow-none">
-      <div className=" mr-[10px]">
+      <div className="mr-[10px] lg:w-[40%]">
         <img
           className="border border-solid border-[rgba(0,0,0,0.09)] p-[4px]"
           src={props.image}
@@ -10,13 +10,12 @@ function IndividualArticle(props) {
       <div className="pl-[10px]">
         <div className="flex">
           <div className="mb-[15px]">
-            <h2 className="text-[28px] capitalize font-Roboto-Condensed mb-[10px] leading-[31px]">
+            <h2 className="text-[24px] md:text-[28px] capitalize font-Roboto-Condensed mb-[10px] leading-[31px]">
               {props.title}
             </h2>
-            <p className="font-Roboto-slab">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-              reprehenderit amet magnam quos alias, iusto qui fuga ullam quidem
-              incidunt.
+            <p className="font-Roboto-slab text-[16px]">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+              recusandae obcaecati numquam consequuntur rerum et.
             </p>
           </div>
           <div>

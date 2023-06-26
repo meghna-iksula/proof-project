@@ -24,6 +24,7 @@ export default {
       boxShadow: {
         "inner-green":
           "inset -1px 0 0 0 rgba(0, 0, 0, 0.12), 0 1px 0 0 #00b874",
+        "inner-black": "inset -1px 0 0 0 rgba(0, 0, 0, 0.12), 0 1px 0 0 #000",
         "inner-gray":
           "inset -1px 0 0 0 rgba(0, 0, 0, 0.12), 0 -1px 0 0 transparent",
         "gray-bottom":

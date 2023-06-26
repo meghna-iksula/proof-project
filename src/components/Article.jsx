@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import IndividualArticle from "./IndividualArticle";
+import { Link } from "react-router-dom";
 
 function Article(props) {
   const [dataSet, setDataSet] = useState([]);
@@ -17,14 +18,16 @@ function Article(props) {
 
   return (
     <div className="w-full lg:max-w-[650px] h-[90vh] overflow-scroll">
-      {dataSet.map((data) => (
-        <IndividualArticle
-          key={data.id}
-          title={data.title}
-          date={data.date}
-          image={data.url}
-        />
-      ))}
+      <Link to="/article">
+        {dataSet.map((data) => (
+          <IndividualArticle
+            key={data.id}
+            title={data.title}
+            date={data.date}
+            image={data.url}
+          />
+        ))}
+      </Link>
     </div>
   );
 }

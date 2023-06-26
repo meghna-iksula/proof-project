@@ -8,7 +8,11 @@
   }
 
   .nav-style-green {
-    @apply shadow-inner-gray border-b border-green text-green;
+    @apply shadow-inner-green text-green;
+  }
+
+  .nav-style-gray {
+    @apply shadow-inner-gray text-gray hover:shadow-inner-black;
   }
 
   .page-title {
@@ -17,10 +21,6 @@
 
   .page-text {
     @apply font-Roboto-slab font-light text-[16px] leading-[23px];
-  }
-
-  .nav-style-gray {
-    @apply shadow-inner-gray text-gray hover:border-b hover:border-gray;
   }
 
   .form-input {

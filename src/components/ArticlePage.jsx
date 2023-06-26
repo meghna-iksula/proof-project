@@ -5,7 +5,7 @@ const ArticlePage = () => {
     <div>
       <header className="font-Roboto-Condensed bg-waves-img h-[115px] md:h-[357px] md:pt-[49px] lg:h-[470px] bg-cover">
         <div className="pt-[66px] md:pt-[241px] lg:pt-[345px] px-[10px] md:px-0 md:max-w-[728px] lg:max-w-[940px] mx-auto">
-          <Link to="/">
+          <Link to="/proof-project/">
             <h2 className="w-fit text-[14px] leading-[20px] px-[15px] py-[7px] uppercase text-white border-[3px] border-white hover:border-blue cursor-pointer transition-colors ease-in">
               ❮ &nbsp; all stories
             </h2>

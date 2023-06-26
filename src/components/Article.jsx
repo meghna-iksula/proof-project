@@ -18,7 +18,7 @@ function Article(props) {
 
   return (
     <div className="w-full lg:max-w-[650px] h-[90vh] overflow-scroll">
-      <Link to="/article">
+      <Link to="/proof-project/article">
         {dataSet.map((data) => (
           <IndividualArticle
             key={data.id}

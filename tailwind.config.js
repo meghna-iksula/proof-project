@@ -18,8 +18,8 @@ export default {
         "light-white": "rgba(255, 255, 255, 0.09)",
       },
       backgroundImage: {
-        "waterfall-img": "url('/waterfall-bg.jpg')",
-        "waves-img": "url('/waves-bg.jpg')",
+        "waterfall-img": "url('/src/assets/waterfall-bg.jpg')",
+        "waves-img": "url('/src/assets/waves-bg.jpg')",
       },
       boxShadow: {
         "inner-green":

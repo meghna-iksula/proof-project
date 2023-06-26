@@ -4,8 +4,8 @@ import Home from "./components/Home";
 import ArticlePage from "./components/ArticlePage";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/article", element: <ArticlePage /> },
+  { path: "/proof-project/", element: <Home /> },
+  { path: "/proof-project/article", element: <ArticlePage /> },
 ]);
 
 function App() {

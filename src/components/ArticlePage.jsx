@@ -17,7 +17,7 @@ const ArticlePage = () => {
           <h1 className="font-Roboto-Condensed font-bold text-gray text-[43px] leading-[47px] mb-[18px]">
             Trekking and Documenting the Surreal Patagonia
           </h1>
-          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[15px]">
+          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[30px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus minus cupiditate dolore temporibus labore repellendus
             ducimus nisi facilis earum culpa, magni eius magnam minima ex quo!
@@ -28,7 +28,7 @@ const ArticlePage = () => {
             quo velit quasi maxime quas in illum! Sint, fuga unde! Eveniet
             corrupti, fugiat atque quae ut odit.
           </p>
-          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[15px]">
+          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[30px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus minus cupiditate dolore temporibus labore repellendus
             ducimus nisi facilis earum culpa, magni eius magnam minima ex quo!
@@ -39,7 +39,7 @@ const ArticlePage = () => {
             quo velit quasi maxime quas in illum! Sint, fuga unde! Eveniet
             corrupti, fugiat atque quae ut odit.
           </p>
-          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[15px]">
+          <p className="font-Roboto-slab font-light text-[16px] leading-[23px] mb-[30px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus minus cupiditate dolore temporibus labore repellendus
             ducimus nisi facilis earum culpa, magni eius magnam minima ex quo!

@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div className="max-w-[630px] w-full h-[90vh] overflow-scroll">
-      <div className=" p-[40px] w-full shadow-gray-bottom">
+    <div className="lg:max-w-[630px] w-full lg:h-[90vh] overflow-scroll">
+      <div className="p-[20px] lg:p-[40px] w-full shadow-gray-bottom">
         <h2 className="page-title">About Proof</h2>
         <p className="page-text mb-[15px]">
           We started Proof to commodo diam libero vitae erat. Aenean faucibus

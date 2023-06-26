@@ -16,7 +16,7 @@ function Article(props) {
   }
 
   return (
-    <div className="max-w-[650px] w-full h-[90vh] overflow-scroll">
+    <div className="w-full lg:max-w-[650px] h-[90vh] overflow-scroll">
       {dataSet.map((data) => (
         <IndividualArticle
           key={data.id}

@@ -4,7 +4,7 @@
 
 @layer components {
   .nav-text {
-    @apply px-[22px] py-[19px] cursor-pointer;
+    @apply px-[15px] py-[12px] lg:px-[22px] lg:py-[19px] cursor-pointer;
   }
 
   .nav-style-green {
@@ -37,5 +37,9 @@
 
   .social-media-icon {
     @apply mr-[14px] invert-[0.8] hover:filter-none cursor-pointer transition-all ease-in;
+  }
+
+  .social-links-icon {
+    @apply w-1/4 h-[58px] pt-[20px] border-r border-proof-border cursor-pointer hover:bg-light-white transition-all duration-300;
   }
 }

@@ -39,7 +39,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="max-w-[800px]">
+    <div className="lg:max-w-[800px]">
       <div className="flex w-full text-[14px] font-Roboto-Condensed uppercase tracking-[1px] shadow-gray-bottom">
         <div
           onClick={articleClickHandler}

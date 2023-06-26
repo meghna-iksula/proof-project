@@ -1,6 +1,6 @@
 function IndividualArticle(props) {
   return (
-    <div className="flex p-[40px] max-w-full cursor-pointer hover:text-blue shadow-gray-bottom hover:shadow-none">
+    <div className="flex p-[20px] lg:p-[40px] max-w-full cursor-pointer hover:text-blue shadow-gray-bottom hover:shadow-none">
       <div className=" mr-[10px]">
         <img
           className="border border-solid border-[rgba(0,0,0,0.09)] p-[4px]"

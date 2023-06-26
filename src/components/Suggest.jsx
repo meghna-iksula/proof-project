@@ -1,6 +1,6 @@
 function Suggest() {
   return (
-    <div className=" p-[40px] max-w-[630px] w-full h-[90vh] overflow-scroll">
+    <div className="p-[20px] lg:p-[40px] lg:max-w-[630px] w-full lg:h-[90vh] mb-[50px] lg:mb-0 overflow-scroll">
       <h2 className="page-title">Suggest an article</h2>
       <p className="page-text mb-[30px]">
         Proof magazine is a community effort. No one person writes or creates

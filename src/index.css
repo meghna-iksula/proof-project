@@ -24,7 +24,7 @@
   }
 
   .form-input {
-    @apply font-Roboto font-light text-blue focus:outline-blue focus:outline px-[15px] py-[14px] mb-[15px] bg-[rgba(0,0,0,0.04)] border border-[rgba(0,0,0,0.18)];
+    @apply font-Roboto font-light text-blue focus:outline-blue focus:outline px-[12px] sm:px-[15px] py-[10px] sm:py-[14px] mb-[15px] bg-[rgba(0,0,0,0.04)] border border-[rgba(0,0,0,0.18)];
   }
 
   .form-button {

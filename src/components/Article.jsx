@@ -10,7 +10,7 @@ function Article(props) {
   });
 
   async function fetchArticlesHandler() {
-    const response = await fetch("/photos.json");
+    const response = await fetch("./photos.json");
     const data = await response.json();
     console.log(data);
     setDataSet(data);

@@ -15,13 +15,13 @@ function About() {
           id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
         </p>
       </div>
-      <div className=" p-[40px] w-full">
+      <div className="p-[20px] lg:p-[40px] w-full">
         <h2 className="page-title">The Team</h2>
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="w-[150px]">
             <img src="./rob-thomas.jpg" alt="team member" />
-            <p className="team-member">Rob Thomas</p>
-            <div className="flex">
+            <p className="team-member-name">Rob Thomas</p>
+            <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
                 src="./twitter-icon_black.svg"
@@ -41,8 +41,8 @@ function About() {
           </div>
           <div className="w-[150px]">
             <img src="./jen-jillians.jpg" alt="team member" />
-            <p className="team-member">Jen Jillians</p>
-            <div className="flex">
+            <p className="team-member-name">Jen Jillians</p>
+            <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
                 src="./twitter-icon_black.svg"
@@ -62,8 +62,8 @@ function About() {
           </div>
           <div className="w-[150px]">
             <img src="./tommy-tikes.jpg" alt="team member" />
-            <p className="team-member">Tommy Tikes</p>
-            <div className="flex">
+            <p className="team-member-name">Tommy Tikes</p>
+            <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
                 src="./twitter-icon_black.svg"

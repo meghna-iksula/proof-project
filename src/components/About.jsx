@@ -19,64 +19,64 @@ function About() {
         <h2 className="page-title">The Team</h2>
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="w-[150px]">
-            <img src="./src/assets/rob-thomas.jpg" alt="team member" />
+            <img src="./rob-thomas.jpg" alt="team member" />
             <p className="team-member-name">Rob Thomas</p>
             <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
-                src="./src/assets/twitter-icon_black.svg"
+                src="./twitter-icon_black.svg"
                 alt="twitter"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/instagram-icon-black.svg"
+                src="./instagram-icon-black.svg"
                 alt="instagram"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/facebook-icon_black.svg"
+                src="./facebook-icon_black.svg"
                 alt="facebook"
               />
             </div>
           </div>
           <div className="w-[150px]">
-            <img src="./src/assets/jen-jillians.jpg" alt="team member" />
+            <img src="./jen-jillians.jpg" alt="team member" />
             <p className="team-member-name">Jen Jillians</p>
             <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
-                src="./src/assets/twitter-icon_black.svg"
+                src="./twitter-icon_black.svg"
                 alt="twitter"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/instagram-icon-black.svg"
+                src="./instagram-icon-black.svg"
                 alt="instagram"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/facebook-icon_black.svg"
+                src="./facebook-icon_black.svg"
                 alt="facebook"
               />
             </div>
           </div>
           <div className="w-[150px]">
-            <img src="./src/assets/tommy-tikes.jpg" alt="team member" />
+            <img src="./tommy-tikes.jpg" alt="team member" />
             <p className="team-member-name">Tommy Tikes</p>
             <div className="flex justify-center sm:justify-start">
               <img
                 className="social-media-icon"
-                src="./src/assets/twitter-icon_black.svg"
+                src="./twitter-icon_black.svg"
                 alt="twitter"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/instagram-icon-black.svg"
+                src="./instagram-icon-black.svg"
                 alt="instagram"
               />
               <img
                 className="social-media-icon"
-                src="./src/assets/facebook-icon_black.svg"
+                src="./facebook-icon_black.svg"
                 alt="facebook"
               />
             </div>

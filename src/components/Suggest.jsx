@@ -74,9 +74,7 @@ function Suggest() {
           <div className="w-full">
             <input
               className={
-                fullNameHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                fullNameHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="Full Name"
@@ -94,9 +92,7 @@ function Suggest() {
           <div className="w-full">
             <input
               className={
-                emailHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                emailHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="Email Address"
@@ -114,9 +110,7 @@ function Suggest() {
           <div className="w-full">
             <input
               className={
-                subjectHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                subjectHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="What's the Subject?"
@@ -135,8 +129,8 @@ function Suggest() {
             <textarea
               className={
                 storyHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] h-[150px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px] h-[150px]"
+                  ? "form-input  h-[150px] border-red-500"
+                  : "form-input  h-[150px]"
               }
               value={storyValue}
               onChange={storyChangeHandler}

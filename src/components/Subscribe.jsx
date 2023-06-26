@@ -76,9 +76,7 @@ const Subscribe = () => {
           <div className="w-full sm:w-[48%]">
             <input
               className={
-                firstNameHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                firstNameHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="First Name"
@@ -95,9 +93,7 @@ const Subscribe = () => {
           <div className="w-full sm:w-[48%]">
             <input
               className={
-                lastNameHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                lastNameHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="Last Name"
@@ -114,9 +110,7 @@ const Subscribe = () => {
           <div className="w-full">
             <input
               className={
-                emailHasError
-                  ? "form-input w-full mr-[10px] lg:mr-[15px] border-red-500"
-                  : "form-input w-full mr-[10px] lg:mr-[15px]"
+                emailHasError ? "form-input  border-red-500" : "form-input "
               }
               type="text"
               placeholder="Email Address"

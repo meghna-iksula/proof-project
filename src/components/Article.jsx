@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import IndividualArticle from "./IndividualArticle";
 import { Link } from "react-router-dom";
 
-function Article(props) {
+function Article() {
   const [dataSet, setDataSet] = useState([]);
 
   useEffect(() => {

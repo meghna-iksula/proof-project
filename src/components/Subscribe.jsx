@@ -5,7 +5,7 @@ import ModalOverlay from "./ModalOverlay";
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
-const Subscribe = () => {
+const Subscribe = (props) => {
   const [enteredLocation, setLocation] = useState("");
   const [showModal, setShowModal] = useState(false);
 
@@ -72,8 +72,8 @@ const Subscribe = () => {
     <div className="p-[20px] lg:p-[40px] lg:max-w-[630px] w-full lg:h-[90vh] mb-[100px] lg:mb-0 overflow-scroll">
       {showModal && (
         <ModalOverlay
-          title="Subscription"
-          message="Thank You for Subscribing!"
+          title="Awesome sauce!"
+          message="You're subscribed to some awesome articles. Look out for weekly newsletters."
           onClick={modalClickHandler}
         />
       )}

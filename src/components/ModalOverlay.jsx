@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 const Backdrop = (props) => {
   return (
@@ -12,17 +13,23 @@ const Backdrop = (props) => {
 
 const ModalContent = (props) => {
   return (
-    <div className="fixed top-[30vh] left-[10%] sm:left-[30%] w-[80%] sm:w-[40%] z-50 bg-white rounded-xl font-Roboto-Condensed overflow-hidden">
-      <div className="p-4 text-center uppercase text-[28px] text-white bg-green">
+    <div className="fixed top-[30vh] left-[10%] sm:left-[30%] w-[80%] sm:w-[40%] z-50 text-blue bg-[rgb(234,227,248)] rounded-xl font-Roboto-Condensed overflow-hidden p-1">
+      <div className="text-center text-[28px] leading-[31px] mt-[25px] mb-[20px]">
         <h2>{props.title}</h2>
       </div>
-      <div className="p-3 text-[18px] text-center">
+      <div className="px-10 mb-2 text-[16px] font-Roboto-slab text-center">
         <p>{props.message}</p>
       </div>
       <div className="text-center m-4">
+        {/* <button
+          className="bg-blue hover:bg-black text-[18px] text-white uppercase px-5 py-1 mr-6 rounded-sm transition-colors
+          "
+        >
+          proof-home
+        </button> */}
         <button
-          className="bg-black hover:bg-blue text-[18px] text-white px-4 py-1 rounded-lg
-        "
+          className="bg-blue hover:bg-black text-[18px] text-white uppercase px-5 py-1 rounded-sm transition-colors
+          "
           onClick={props.onClick}
         >
           Okay

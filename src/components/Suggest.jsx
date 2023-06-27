@@ -72,8 +72,9 @@ const Suggest = () => {
     <div className="p-[20px] lg:p-[40px] lg:max-w-[630px] w-full lg:h-[90vh] mb-[50px] lg:mb-0 overflow-scroll">
       {showModal && (
         <ModalOverlay
-          title="Suggestion"
-          message="Thank You for sharing your Suggestion!"
+          title="Thanks! You're awesome"
+          message="Your submission has been received and we'll get back to you soon. If it's a great idea we'll feature you in PROOF!
+          "
           onClick={modalClickHandler}
         />
       )}

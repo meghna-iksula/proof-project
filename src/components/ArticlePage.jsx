@@ -5,15 +5,12 @@ const ArticlePage = () => {
   const [dataSet, setDataSet] = useState([]);
 
   useEffect(() => {
-    fetchArticlesHandler();
-  });
-
-  async function fetchArticlesHandler() {
-    const response = await fetch("./photos.json");
-    const data = await response.json();
-    console.log(data);
-    setDataSet(data);
-  }
+    fetch("./photos.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setDataSet(data);
+      });
+  }, []);
 
   return (
     <div>

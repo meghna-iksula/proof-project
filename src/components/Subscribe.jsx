@@ -140,7 +140,7 @@ const Subscribe = (props) => {
             )}
           </div>
           <input
-            className="form-input w-full"
+            className="form-input w-full mr-0 mb-[22px]"
             type="text"
             value={enteredLocation}
             onChange={locationChangeHandler}

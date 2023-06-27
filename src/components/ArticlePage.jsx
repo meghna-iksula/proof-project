@@ -76,7 +76,10 @@ const ArticlePage = () => {
           </p>
           <div className="flex flex-wrap">
             {dataSet.map((data) => (
-              <img className="w-[60px] md:w-[100px] mr-3 mb-3" src={data.url} />
+              <img
+                className="w-[60px] md:w-[100px] mr-1 mb-3 border border-solid border-[rgba(0,0,0,0.09)] p-[4px]"
+                src={data.url}
+              />
             ))}
           </div>
         </div>
@@ -84,7 +87,7 @@ const ArticlePage = () => {
         <div className="mx-[70px] text-center font-Roboto-Condensed">
           <div className="w-[135px] mt-[70px] md:mt-[-70px] bg-white mx-auto">
             <img
-              className="w-full p-[7px]"
+              className="w-full border border-solid border-[rgba(0,0,0,0.09)] p-[6px]"
               src="./author-img.jpg"
               alt="author"
             />

@@ -8,11 +8,11 @@
   }
 
   .nav-style-green {
-    @apply md:shadow-inner-green text-green;
+    @apply md:shadow-inner-green md:border-b md:border-green text-green;
   }
 
   .nav-style-gray {
-    @apply shadow-inner-gray text-white md:text-gray hover:shadow-inner-black;
+    @apply shadow-inner-gray text-white md:text-gray hover:border-b hover:border-black;
   }
 
   .page-title {

@@ -5,7 +5,7 @@ import ModalOverlay from "./ModalOverlay";
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
-const Subscribe = (props) => {
+const Subscribe = () => {
   const [enteredLocation, setLocation] = useState("");
   const [showModal, setShowModal] = useState(false);
 

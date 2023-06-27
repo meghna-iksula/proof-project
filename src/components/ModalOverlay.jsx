@@ -21,12 +21,6 @@ const ModalContent = (props) => {
         <p>{props.message}</p>
       </div>
       <div className="text-center m-4">
-        {/* <button
-          className="bg-blue hover:bg-black text-[18px] text-white uppercase px-5 py-1 mr-6 rounded-sm transition-colors
-          "
-        >
-          proof-home
-        </button> */}
         <button
           className="bg-blue hover:bg-black text-[18px] text-white uppercase px-5 py-1 rounded-sm transition-colors
           "

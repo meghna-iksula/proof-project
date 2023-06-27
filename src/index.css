@@ -4,15 +4,15 @@
 
 @layer components {
   .nav-text {
-    @apply px-[15px] py-[12px] lg:px-[22px] lg:py-[19px] cursor-pointer;
+    @apply hover:bg-light-white md:hover:bg-none transition-colors ease-in px-[15px] py-[12px] lg:px-[22px] lg:py-[19px] cursor-pointer;
   }
 
   .nav-style-green {
-    @apply shadow-inner-green text-green;
+    @apply md:shadow-inner-green text-green;
   }
 
   .nav-style-gray {
-    @apply shadow-inner-gray text-gray hover:shadow-inner-black;
+    @apply shadow-inner-gray text-white md:text-gray hover:shadow-inner-black;
   }
 
   .page-title {
